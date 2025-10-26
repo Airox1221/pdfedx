@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.react-pdf__Page {
+  @apply shadow-lg mb-4;
+}
+
+.react-pdf__Page__canvas {
+  @apply max-w-full h-auto;
+}
+
+.react-pdf__Page__textContent {
+  display: none !important;
+}
+
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+
+.thumbnail-page {
+  @apply relative border-2 border-gray-300 rounded-lg overflow-hidden cursor-pointer transition-all hover:border-blue-400;
+}
+
+.thumbnail-page.selected {
+  @apply border-blue-500 ring-2 ring-blue-300;
+}
+
+.thumbnail-page.dragging {
+  @apply opacity-50;
+}
+
+.drag-handle {
+  @apply absolute bg-blue-500 border-2 border-white rounded-full cursor-move shadow-lg;
+}
+
+.progress-bar {
+  @apply h-2 bg-blue-500 rounded-full transition-all duration-300;
+}
+
+.loading-spinner {
+  @apply inline-block w-6 h-6 border-4 border-gray-200 border-t-blue-500 rounded-full animate-spin;
+}
