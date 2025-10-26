@@ -34,6 +34,15 @@ A comprehensive PDF editing web application built with Next.js 14+ (App Router),
 - Visual feedback for all operations
 - Server-side preview option for large files
 
+
+## Demo
+
+<p align="center">
+  <img src="./images/image.png" alt="Screenshot 1" width="45%" style="margin-right:5%">
+  <img src="./images/image1.png" alt="Screenshot 2" width="45%">
+</p>
+
+
 ## Tech Stack
 
 ### Frontend
